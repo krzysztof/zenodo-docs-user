@@ -1,0 +1,55 @@
+title: Roadmap and Summer Updates
+---
+author: lnielsen
+---
+body:
+
+## Roadmap for Q3
+In late June we have established our roadmap for Q3. Besides the usual system maintenance,
+user support and minor bugfixes and system improvements, we are planning to introduce the following to Zenodo:
+
+1. Improvements to our auditing system for data storage and data archival.
+1. Several big changes to the upload form concerning OpenAIRE and EC-funded research.
+1. A major update to our grants database.
+1. First-step features towards improving the community curation, including multiple curators and record's metadata editing by the community curators.
+1. Autonomous module for SPAM detection.
+
+## Google Summer of Code 2017
+Zenodo has been taking part in Google Summer of Code 2017 since Februrary this year,
+and since June two students, Aman Jain and Xiao Meng, have been working with our team on introducing two exciting features to Zenodo by the end of this Summer.
+
+One project will introduce the publicly-visible user profile pages to Zenodo,
+which will allow for easier linking to your Zenodo profile, as well as overview of your
+Zenodo account. The second project introduces a new files processing module to Invenio,
+which will enable us to process the contents of the files.
+This will allow, for example to extract the metadata from the PDF documents and use that
+information to improve search or easy pre-filling of metadata at the submission form.
+
+## New feature: support contact form
+Thanks to Aman Jain, one of our GSoC students, you can now contact us more efficiently through a contact form available at [https://zenodo.org/support](https://zenodo.org/support).
+This will allow us to organize the incoming inquiries better and handle the support requests quicker.
+
+Contacting us through email directly will continue to be supported, but priority will be given to issues submitted
+through the contact form.
+{{this.attachments}}
+<div style="text-align:center">
+<img src="contact_form.png" />
+</div>
+
+
+## New feature: browser sessions tracking
+With the recent Zenodo update, which introduces many security patches and minor bugfixes,
+you can now also monitor, and if necessary revoke, the session activity of any
+of the devices that have been recently used to log-in to your Zenodo account.
+You can view all currently logged-in sessions by navigating to the
+*Security* tab in your account settings.
+
+<div style="text-align:center">
+![Active sessions](active_sessions.png)
+</div>
+
+## New feature: status page
+...
+
+---
+date: 2017-07-26
